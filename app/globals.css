@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+/* Simplified to only include custom font definitions */
+@theme inline {
+  --font-abril-fatface: var(--font-abril-fatface);
+  --font-work-sans: var(--font-work-sans);
+  --font-yellowtail: var(--font-yellowtail);
+  /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */
+
+}
+
